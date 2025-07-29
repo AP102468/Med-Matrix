@@ -3,7 +3,7 @@ import Login from './pages/Login'
 
 import { ToastContainer, toast } from 'react-toastify';
 import { AdminContext } from './context/AdminContext';
-import Navbar from './components/NavBar';
+import Navbar from './components/NavBar.jsx';
 import Sidebar from './components/Sidebar';
 import { Route, Routes } from 'react-router-dom';
 import Dashboard from './pages/Admin/Dashboard';
@@ -16,8 +16,6 @@ import DoctorAppointments from './pages/Doctor/DoctorAppointments';
 import DoctorProfile from './pages/Doctor/DoctorProfile';
 
 const App = () => {
-
-  //If the admin token is available in that case we will hide the login page and the Actual Admin page is visible to the admin and admin can manage the other operations like docotor add/delete , Appointment detail, Docotr List
 
   const {aToken} = useContext(AdminContext)
   const {dToken} = useContext(DoctorContext)
