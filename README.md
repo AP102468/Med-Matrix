@@ -2,7 +2,7 @@
 
 ✅This is a portal where user can create profile, login and update profile.
 
-✅User can book an appointment, make payment and cancel appointment for differnt dpecialized doctor.
+✅User can book an appointment, make payment and cancel appointment for specialized doctor.
 
 ✅Admin and doctor both can login sothat they both can manage users and doctors profile and accept appointments simultaneously. 
 
